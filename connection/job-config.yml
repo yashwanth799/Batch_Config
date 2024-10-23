@@ -1,0 +1,7 @@
+jobName: emailSortingJob
+reader:
+  chunkSize: 100
+  dataSource: jdbc:postgresql://your-database-url
+writer:
+  outputFile: output/emails-sorted.txt
+
