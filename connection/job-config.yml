@@ -2,6 +2,7 @@ jobName: emailSortingJob
 reader:
   chunkSize: 100
   dataSource: jdbc:postgresql://your-database-url
+  username: your-username
+  password: your-password
 writer:
-  outputFile: output/emails-sorted.txt
-
+  outputFile: output/emails-sorted.csv
