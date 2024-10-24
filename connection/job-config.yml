@@ -1,8 +1,11 @@
-jobName: emailSortingJob
-reader:
-  chunkSize: 100
-  dataSource: jdbc:postgresql://your-database-url
-  username: your-username
-  password: your-password
-writer:
-  outputFile: output/emails-sorted.csv
+spring:
+  application:
+    name: springBatchCentralizeConfig
+  datasource:
+    url: jdbc:postgresql://ep-crimson-mud-a5fw7mbz.us-east-2.aws.neon.tech/Spring_Batch
+    username: JDBC_Project_owner
+    password: oYzEdKrZ9ay3
+    driver-class-name: org.postgresql.Driver
+  batch:
+    job:
+      enabled: false
