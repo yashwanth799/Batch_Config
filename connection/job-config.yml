@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: springBatchCentralizeConfig
   datasource:
     url: jdbc:postgresql://ep-crimson-mud-a5fw7mbz.us-east-2.aws.neon.tech/Spring_Batch
     username: JDBC_Project_owner
